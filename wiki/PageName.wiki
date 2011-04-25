@@ -37,3 +37,11 @@ Simulink design of the model so as to get a picture of how to model the system u
 Xilinx implementation of the system using System Generator, with special consideration to timing and accuracy of the design.
 
 Updates:
+
+Get the update equations right. To do this we'll have to talk to Prof. Ebbini.
+
+Control scheme and  P update has to be fixed. 
+
+Integration loop, for both 32 and also the bigger 347 loop has to be figured out.
+
+Hardware coSim comes after this.
