@@ -1,0 +1,47 @@
+Introduction:
+
+FPGA Implementation of Kalman Filters: Kalman filters are widely used in signal processing applications and there is a rich literature on their implementation on FPGA platforms. One particularly useful version is the extended Kalman filter (EKF). We are considering the implementation of the EKF on the Spartan 3 500E.
+
+Timeline:
+
+Project Proposal
+March 25: Done!
+
+Instructor Response
+March 29: Done!
+
+Short Presentation
+April 13/15: To be prepared.
+
+In class
+Exam
+April 27/29
+
+In class (WebCT)
+Project Demonstration
+May 3 - 4
+
+In Lab
+Project Presentation
+May 13
+10:30 – 12:30 Lab
+
+Final Report
+May 14
+
+Things to do:
+Model verification using MATLAB so that the algorithm is clearly understood and appreciated.
+
+Simulink design of the model so as to get a picture of how to model the system using blocks and control the flow of data and timing.
+
+Xilinx implementation of the system using System Generator, with special consideration to timing and accuracy of the design.
+
+Updates:
+
+Get the update equations right. To do this we'll have to talk to Prof. Ebbini.
+
+Control scheme and  P update has to be fixed.
+
+Integration loop, for both 32 and also the bigger 347 loop has to be figured out.
+
+Hardware coSim comes after this.
